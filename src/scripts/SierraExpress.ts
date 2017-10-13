@@ -1,10 +1,3 @@
-import { Application as BaseApplication, Controller as BaseController, IMiddleware, IServerIntegration } from 'sierra';
-import * as Express from 'express';
-
-export class Application extends BaseApplication<Express.Request, Express.RequestHandler> {
-
-}
-
-export class Controller extends BaseController<Express.Request, Express.RequestHandler> {
-
-}
+export { default as Application } from './implementations/Application';
+export { default as Controller } from './implementations/Controller';
+export { default as SimpleApplication } from './implementations/SimpleApplication';
