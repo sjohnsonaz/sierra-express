@@ -1,6 +1,6 @@
 module.exports = {
     entry: {
-        'main': './src/scripts/main.ts',
+        'SierraExpress': './src/scripts/SierraExpress.ts',
         'mochaRunner': './src/mocha/BrowserRunner.ts'
     },
     output: {
