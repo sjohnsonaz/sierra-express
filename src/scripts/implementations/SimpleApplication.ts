@@ -56,7 +56,7 @@ export default class SimpleApplication extends Application {
                     break;
             }
         });
-        this.app.use('/api', expressRouter);
+        this.app.use([controller.service ? '/api' : '', controller.base].join('/'), expressRouter);
     }
 
     listen() {

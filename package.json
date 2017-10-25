@@ -23,7 +23,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "sierra": "^0.0.1",
+    "sierra": "^0.0.2",
     "express": "^4.16.2"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "jsdom": "11.3.0",
     "mocha": "3.4.2",
     "nodemon": "1.12.1",
-    "sierra": "^0.0.1",
+    "sierra": "^0.0.2",
     "ts-loader": "2.3.7",
     "typescript": "2.5.3",
     "webpack": "3.6.0"
